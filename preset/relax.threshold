@@ -1,0 +1,52 @@
+## feature extraction:
+## 
+threshold.feature.compound.Freq = 10
+
+threshold.feature.Pj.HighFreq = 0.1
+threshold.feature.Pj.LowFreq = 0.3
+
+metric.feature.Pj.LowFreq.LeftAdj = 1
+metric.feature.Pj.LowFreq.RightAdj = 1
+metric.feature.Pj.LowFreq.TermFreq = 3
+
+metric.feature.Pj.HighFreq.LeftAdj = 4
+metric.feature.Pj.HighFreq.RightAdj = 4
+metric.feature.Pj.HighFreq.TermFreq = 8
+
+threshold.feature.Pu.HighFreq = 0.7
+threshold.feature.Pu.MedFreq = 0.6
+threshold.feature.Pu.LowFreq = 0.5
+
+metric.feature.Pu.TermFreq = 4
+
+threshold.feature.Bg.P = 1.0
+threshold.feature.Bg.Pb = 4.0
+
+threshold.feature.oov.LeftEntropyGain = 0.15
+threshold.feature.oov.LeftMute = 0.0001
+threshold.feature.oov.RightEntropyGain = 0.12
+threshold.feature.oov.RightMute = 0.0001
+threshold.feature.oov.ExtendRate = 0.55
+
+## opinion extraction:
+##
+threshold.opinion.function.MaxWord = 5
+threshold.opinion.function.Count = 1
+
+threshold.opinion.adverb.MaxWord = 5
+threshold.opinion.adverb.Count = 1
+
+threshold.opinion.compound.MaxWindow = 4
+threshold.opinion.compound.Count = 100
+threshold.opinion.compound.Possibility = 0.7
+
+## polarity classification:
+##
+threshold.polarity.positive.score = 0.1
+threshold.polarity.negative.score = -0.06
+
+metric.polarity.initial.positive = 1.0
+metric.polarity.initial.negative = -2.0
+metric.polarity.initial.neutral = 0.0
+
+metric.polarity.initial.alpha = 1.0

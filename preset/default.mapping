@@ -1,0 +1,30 @@
+#POS shortcuts: Noun, 'N'
+#POS shortcuts: Modifier, 'F'
+#POS shortcuts: Conjunction, 'C'
+#POS shortcuts: Verb, 'V'
+#POS shortcuts: VerbHasIs, 'Y'
+#POS shortcuts: Prefix, 'H'
+#POS shortcuts: Suffix, 'K'
+#POS shortcuts: Locution, 'I'
+#POS shortcuts: Punctuation, 'W'
+#POS shortcuts: Adverb, 'D'
+#POS shortcuts: Adjective, 'A'
+#POS shortcuts: Morpheme, 'G'
+#POS shortcuts: Foreign, 'E'
+#POS shortcuts: Acronym, 'J'
+#POS shortcuts: AuxOf, 'O'
+#POS shortcuts: Auxiliary, 'U'	
+#POS shortcuts: Pronoun, 'R'	
+#POS shortcuts: Preposition, 'P'	
+#POS shortcuts: Numeral, 'M'	
+#POS shortcuts: Quantifier, 'Q'	
+#POS shortcuts: Function, 'T'
+#POS shortcuts: Other, 'X'
+#POS shortcuts: Unknown, 'Z'
+
+morphology.mapping.class=edu.thuir.sentires.buildin.DefaultPOSMapping
+
+#
+#morphology.mapping.N=n
+#morphology.mapping.V=v
+#morphology.mapping.A=a
