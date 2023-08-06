@@ -1,0 +1,76 @@
+profile.product = /data/shared/sentires/book/reviews_Books_5.json.gz.review.product
+profile.lexicon = /data/shared/sentires/book/reviews_Books_5.json.gz.lexicon
+profile.posprofile = /data/shared/sentires/book/reviews_Books_5.json.gz.positive.profile
+profile.negprofile = /data/shared/sentires/book/reviews_Books_5.json.gz.negative.profile
+profile.indicatorfile = /data/shared/sentires/book/reviews_Books_5.json.gz.indicator
+profile.index = /data/shared/sentires/book/reviews_Books_5.json.gz.index
+profile.rerank.index = /data/shared/sentires/book/reviews_Books_5.json.gz.rerank.index
+profile.feature = /data/shared/sentires/book/reviews_Books_5.json.gz.label.feature
+profile.opinion = /data/shared/sentires/book/reviews_Books_5.json.gz.label.opinion
+profile.sbc2dbc = /home/hoangle/preferred.ai/seer/dist/sentires-mp/data/sbc2dbc/sbc2dbc.dict
+
+profile.product.charset = UTF8
+profile.lexicon.charset = UTF8
+profile.profile.charset = UTF8
+profile.indicator.charset = UTF8
+profile.feature.charset = UTF8
+profile.opinion.charset = UTF8
+profile.productname.toshiba.charset = UTF8
+profile.productname.other.charset = UTF8
+profile.index.charset = UTF8
+profile.sbc2dbc.charset = UTF8
+
+preprocessing.language=english
+preprocessing.raw.path=/data/shared/sentires/book/reviews_Books_5.json.gz.raw
+preprocessing.raw.charset=UTF8
+preprocessing.selected.path=/data/shared/sentires/book/reviews_Books_5.json.gz.select
+preprocessing.selected.charset=UTF8
+
+postagging.language=english
+postagging.select.path=/data/shared/sentires/book/reviews_Books_5.json.gz.select
+postagging.select.dir.path=/data/shared/sentires/book/select
+postagging.select.charset=UTF8
+postagging.pos.path=/data/shared/sentires/book/reviews_Books_5.json.gz.pos
+postagging.pos.dir.path=/data/shared/sentires/book/pos
+postagging.pos.charset=UTF8
+postagging.model.file=/home/hoangle/preferred.ai/seer/dist/sentires-mp/res/english-bidirectional-distsim.tagger
+
+validation.A.mapping.class=edu.thuir.sentires.buildin.STANPOSMapping
+validation.B.mapping.class=edu.thuir.sentires.buildin.STANPOSMapping
+validation.source.charset=UTF8
+validation.output.charset=UTF8
+
+validation.A.result=/data/shared/sentires/book/reviews_Books_5.json.gz.pos
+validation.B.result=/data/shared/sentires/book/reviews_Books_5.json.gz.pos.copy
+validation.source=/data/shared/sentires/book/reviews_Books_5.json.gz.select
+validation.output=/data/shared/sentires/book/reviews_Books_5.json.gz.validate
+
+
+
+
+background.corpus=/home/hoangle/preferred.ai/seer/dist/sentires-mp/corpus/bg.lower.seg
+background.resource=/home/hoangle/preferred.ai/seer/dist/sentires-mp/res/bg.eng.res
+background.corpus.encoding=UTF8
+background.resource.encodng=UTF8
+
+include=/home/hoangle/preferred.ai/seer/dist/sentires-mp/preset/english.pattern
+include=/home/hoangle/preferred.ai/seer/dist/sentires-mp/preset/default.mapping
+
+include=/home/hoangle/preferred.ai/seer/dist/sentires-mp/preset/relax.threshold
+include=/home/hoangle/preferred.ai/seer/dist/sentires-mp/preset/english.resource
+
+
+task.io.corpus.file=/data/shared/sentires/book/reviews_Books_5.json.gz.validate
+task.io.corpus.charset=UTF8
+task.io.feature.file=/data/shared/sentires/manual.aspect
+task.io.feature.charset=UTF8
+task.io.stop.feature.file=/data/shared/sentires/stop.aspect
+task.io.stop.feature.charset=UTF8
+task.io.stop.opinion.file=/data/shared/sentires/stop.opinion
+task.io.stop.opinion.charset=UTF8
+
+## Output:
+task.io.lexicon.file=/data/shared/sentires/book/reviews_Books_5.json.gz.lexicon
+task.io.lexicon.charset=UTF8
+lowest.frequency=4
+#lowest.frequency=1
